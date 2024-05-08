@@ -1,8 +1,8 @@
 <?php
 
 include __DIR__ . '/Views/header.php';
-$movies = Product::fetchAll('movies_db', 'Movie');
-$books = Product::fetchAll('books_db', 'Book');
+// $movies = Product::fetchAll('movies_db', 'Movie');
+// $books = Product::fetchAll('books_db', 'Book');
 ?>
 <main class="container">
     <section>
