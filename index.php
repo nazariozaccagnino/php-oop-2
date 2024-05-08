@@ -6,15 +6,34 @@ $books = Product::fetchAll('books_db', 'Book');
 ?>
 <main class="container">
     <section>
-        <h2>Movies</h2>
+        <h2>Dog food</h2>
         <div class="row">
             <?php foreach ($movies as $movie) {
                 echo $movie->printCard($movie->formatItem());
             } ?>
         </div>
     </section>
+
     <section>
-        <h2>Books</h2>
+        <h2>Cat food</h2>
+        <div class="row">
+            <?php foreach ($books as $book) {
+                echo $book->printCard($book->formatItem());
+            } ?>
+        </div>
+    </section>
+
+    <section>
+        <h2>Fish food</h2>
+        <div class="row">
+            <?php foreach ($books as $book) {
+                echo $book->printCard($book->formatItem());
+            } ?>
+        </div>
+    </section>
+
+    <section>
+        <h2>birds food</h2>
         <div class="row">
             <?php foreach ($books as $book) {
                 echo $book->printCard($book->formatItem());
