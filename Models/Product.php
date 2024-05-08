@@ -10,4 +10,9 @@ class Product
         $this->img = $img;
         $this->price = $price;
     }
+    public function printCard($item)
+    {
+        extract($item);
+        include __DIR__ . '/../Views/card.php';
+    }
 }
