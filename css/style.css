@@ -47,5 +47,5 @@ footer ul {
 }
 
 footer h4 {
-    text-transform: lowercase;
+    text-transform: capitalize;
 }
