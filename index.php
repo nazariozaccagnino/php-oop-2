@@ -1,6 +1,9 @@
 <?php
 
 include __DIR__ . '/Views/header.php';
+include __DIR__ . '/Models/Product.php';
+include __DIR__ . '/Models/Cani.php';
+include __DIR__ . '/Models/Gatti.php';
 // $movies = Product::fetchAll('movies_db', 'Movie');
 // $books = Product::fetchAll('books_db', 'Book');
 ?>
@@ -8,8 +11,8 @@ include __DIR__ . '/Views/header.php';
     <section>
         <h2>Dog food</h2>
         <div class="row">
-            <?php foreach ($movies as $movie) {
-                echo $movie->printCard($movie->formatItem());
+            <?php foreach ($cani as $cane) {
+                echo $cane->printCard($cane->formatItem());
             } ?>
         </div>
     </section>
@@ -17,13 +20,13 @@ include __DIR__ . '/Views/header.php';
     <section>
         <h2>Cat food</h2>
         <div class="row">
-            <?php foreach ($books as $book) {
-                echo $book->printCard($book->formatItem());
+            <?php foreach ($gatti as $gato) {
+                echo $gato->printCard($gato->formatItem());
             } ?>
         </div>
     </section>
 
-    <section>
+    <!-- <section>
         <h2>Fish food</h2>
         <div class="row">
             <?php foreach ($books as $book) {
@@ -39,7 +42,7 @@ include __DIR__ . '/Views/header.php';
                 echo $book->printCard($book->formatItem());
             } ?>
         </div>
-    </section>
+    </section> -->
 
 </main>
 
