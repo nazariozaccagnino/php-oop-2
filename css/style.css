@@ -2,3 +2,12 @@
 .bg-header{
     background-color: #EDEAE1;
 }
+.logo{
+    width: 200px;
+}
+
+ul li a:hover{
+    background-color: #0B5ED7;
+    color: white;
+    text-decoration: none;
+}
