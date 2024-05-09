@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 .bg-header{
     background-color: #EDEAE1;
@@ -14,4 +19,16 @@ ul li a:hover{
 
 body{
     background-color: red;
+}
+
+.card {
+    height: 300px; /* Altezza desiderata per tutte le card */
+}
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
