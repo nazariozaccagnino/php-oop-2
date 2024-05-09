@@ -1,5 +1,5 @@
 <footer class="bg-header">
-    <div class="container">
+    <div class="container pt-4">
         <div class="row">
             <div class="col-3">
                 <h4>ASSISTENZA</h4>
