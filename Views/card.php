@@ -1,11 +1,11 @@
 <div class="col-12 col-md-4 col-lg-3">
     <div class="card">
-        <img src="<?= $image ?>" class="card-img-top" alt="<?= $title ?>">
+        <img src="<?= $img ?>" class="card-img-top" alt="<?= $title ?>">
         <div class="card-body">
-            <h5 class="card-title"><?= $title ?></h5>
-            <p class="card-text"><?= $custom ?></p>
-            <p class="card-text"><?= $category ?></p>
-            <div><?= $vote ?></div>
+            <h5 class="card-title"><?= $name ?></h5>
+            <p class="card-text"><?= $weight ?></p>
+            <p class="card-text"><?= $prise ?></p>
+            <div><?= $category ?></div>
             <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
     </div>

@@ -3,12 +3,7 @@ include_once __DIR__ . '/Product.php';
 class Dogs extends Product
 {
     
-    public function __construct($id, $name, $weight, $price, $img, $category)
-    {
-        parent::__construct($id, $name, $weight, $price, $img, $category);
-        
-
-
+    public function __construct($id, $name, $weight, $price, $img, $category) {
     }
     public function formatItem()
     {

@@ -1,14 +1,23 @@
 <?php
+
 class Product
 {
+    public int $id;
     public string $name;
-    public string $img;
+    public string $weight;
     public string $price;
+    public string $img;
+    public string $category;
+    
 
-    public function __construct($name, $img, $price){
+    public function __construct($id, $name, $weight, $price, $img, $category){
+        $this->id = $id;
         $this->name = $name;
-        $this->img = $img;
+        $this->weight = $weight;
         $this->price = $price;
+        $this->img = $img;
+        $this->category = $category;
+        
     }
     public function printCard($item)
     {

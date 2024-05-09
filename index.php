@@ -26,7 +26,7 @@ include __DIR__ . '/Models/Gatti.php';
         </div>
     </section>
 
-    <!-- <section>
+     <section>
         <h2>Fish food</h2>
         <div class="row">
             <?php foreach ($books as $book) {
@@ -42,7 +42,7 @@ include __DIR__ . '/Models/Gatti.php';
                 echo $book->printCard($book->formatItem());
             } ?>
         </div>
-    </section> -->
+    </section> 
 
 </main>
 
