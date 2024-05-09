@@ -13,5 +13,15 @@ ul li a:hover{
 }
 
 body{
-    background-color: red;
+    background-color: #837b6e;
 }
+a{
+    text-decoration: none;
+    color: #444;
+}
+li{
+    list-style: none;
+    text-indent: -0.5px;
+}
+
+
