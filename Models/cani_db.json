@@ -51,7 +51,7 @@
     },
     
         {
-            "id": 1,
+            "id": 7,
             "name": "Cuccia per Cani Confortevole in Tessuto",
             "size": "Medium",
             "price": "35.99$",
@@ -59,7 +59,7 @@
             "category": "Dogaccessory"
         },
         {
-            "id": 2,
+            "id": 8,
             "name": "Lettiera per Cani con Fondo Anti-Sporco",
             "size": "Large",
             "price": "25.99$",
@@ -67,7 +67,7 @@
             "category": "Dogaccessory"
         },
         {
-            "id": 3,
+            "id": 9,
             "name": "Giostra per Cani con Palline e Sonagli",
             "size": "Small",
             "price": "12.99$",
@@ -75,7 +75,8 @@
             "category": "Dogtoy"
         },
         {
-            "id": 4,
+            "id": 10
+            ,
             "name": "Ciotola per Cani in Acciaio Inox",
             "size": "Large",
             "price": "8.99$",
@@ -83,7 +84,7 @@
             "category": "Dogaccessory"
         },
         {
-            "id": 5,
+            "id": 11,
             "name": "Collare in Pelle per Cani con Fibbia Regolabile",
             "size": "Medium",
             "price": "19.99$",
@@ -91,7 +92,7 @@
             "category": "Dogaccessory"
         },
         {
-            "id": 6,
+            "id": 12,
             "name": "Giocattolo Tiragraffi per Cani con Sfera Rimovibile",
             "size": "Large",
             "price": "14.99$",
