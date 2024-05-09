@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 .bg-header{
     background-color: #EDEAE1;
@@ -9,15 +14,18 @@
 
 
 body{
-    background-color: #837b6e;
+    background-color: red;
 }
-a{
-    text-decoration: none;
-    color: #444;
-}
-li{
-    list-style: none;
-    text-indent: -0.5px;
+
+.card {
+    height: 700px;
+    margin: 10px;
 }
 
 
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
