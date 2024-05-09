@@ -6,6 +6,8 @@ include __DIR__ . '/Models/Cani.php';
 include __DIR__ . '/Models/Gatti.php';
 // $movies = Product::fetchAll('movies_db', 'Movie');
 // $books = Product::fetchAll('books_db', 'Book');
+$cani =Dogs::fetchAll();
+
 ?>
 <main class="container">
     <section>
@@ -17,32 +19,7 @@ include __DIR__ . '/Models/Gatti.php';
         </div>
     </section>
 
-    <section>
-        <h2>Cat food</h2>
-        <div class="row">
-            <?php foreach ($gatti as $gato) {
-                echo $gato->printCard($gato->formatItem());
-            } ?>
-        </div>
-    </section>
-
-     <section>
-        <h2>Fish food</h2>
-        <div class="row">
-            <?php foreach ($books as $book) {
-                echo $book->printCard($book->formatItem());
-            } ?>
-        </div>
-    </section>
-
-    <section>
-        <h2>birds food</h2>
-        <div class="row">
-            <?php foreach ($books as $book) {
-                echo $book->printCard($book->formatItem());
-            } ?>
-        </div>
-    </section> 
+    
 
 </main>
 
