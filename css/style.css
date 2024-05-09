@@ -22,7 +22,8 @@ body{
 }
 
 .card {
-    height: 300px; /* Altezza desiderata per tutte le card ss */
+    height: 700px;
+    margin: 10px;
 }
 
 
