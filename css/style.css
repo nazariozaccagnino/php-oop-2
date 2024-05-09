@@ -6,11 +6,7 @@
     width: 200px;
 }
 
-ul li a:hover{
-    background-color: #0B5ED7;
-    color: white;
-    text-decoration: none;
-}
+
 
 body{
     background-color: #837b6e;

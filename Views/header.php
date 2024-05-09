@@ -27,11 +27,11 @@
 
             <nav class=" d-flex justify-content-end align-items-center">
                 <ul class="nav d-flex justify-content-end align-items-center">
-                    <li class="nav-item d-flex align-items-center">
-                        <a class="nav-link" href="index.php">Home</a>
-                        <a class="nav-link" href="index.php">Carrello</a>
-                        <a class="nav-link" href="index.php">Login</a>
-                        <a class="nav-link" href="index.php">Help</a>
+                    <li class="nav-item d-flex align-items-center ">
+                        <a class="px-2" href="index.php">Home</a>
+                        <a class="px-2" href="index.php">Carrello</a>
+                        <a class="px-2" href="index.php">Login</a>
+                        <a class="px-2" href="index.php">Help</a>
 
                     </li>
 
