@@ -7,6 +7,7 @@
         "img": "https://www.ciamanimali.com/22247-home_default/forza-10-cane-maxi-adult-maintenance-con-cervo-e-patate-12-kg.webp",
         "category": "Dogfood"
     },
+   
     {
         
         "id": 2,
@@ -47,7 +48,55 @@
         "price": "19,99$",
         "img": "https://www.ciamanimali.com/22109-home_default/advance-activedefense-cane-sensitive-care-agnello-3-kg.webp",
         "category": "Dogfood"
-    }
+    },
     
+        {
+            "id": 1,
+            "name": "Cuccia per Cani Confortevole in Tessuto",
+            "size": "Medium",
+            "price": "35.99$",
+            "img": "https://example.com/cuccia.jpg",
+            "category": "Dogaccessory"
+        },
+        {
+            "id": 2,
+            "name": "Lettiera per Cani con Fondo Anti-Sporco",
+            "size": "Large",
+            "price": "25.99$",
+            "img": "https://example.com/lettiera.jpg",
+            "category": "Dogaccessory"
+        },
+        {
+            "id": 3,
+            "name": "Giostra per Cani con Palline e Sonagli",
+            "size": "Small",
+            "price": "12.99$",
+            "img": "https://example.com/giostra.jpg",
+            "category": "Dogtoy"
+        },
+        {
+            "id": 4,
+            "name": "Ciotola per Cani in Acciaio Inox",
+            "size": "Large",
+            "price": "8.99$",
+            "img": "https://example.com/ciotola.jpg",
+            "category": "Dogaccessory"
+        },
+        {
+            "id": 5,
+            "name": "Collare in Pelle per Cani con Fibbia Regolabile",
+            "size": "Medium",
+            "price": "19.99$",
+            "img": "https://example.com/collare.jpg",
+            "category": "Dogaccessory"
+        },
+        {
+            "id": 6,
+            "name": "Giocattolo Tiragraffi per Cani con Sfera Rimovibile",
+            "size": "Large",
+            "price": "14.99$",
+            "img": "https://example.com/tiragraffi.jpg",
+            "category": "Dogtoy"
+        }
     
 ]
