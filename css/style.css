@@ -21,7 +21,7 @@ a {
 }
 
 body {
-    background-color: red;
+    background-color:#dad7cf;
 }
 
 .card {
@@ -34,6 +34,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+    background-color: rgb(231, 221, 221);
 }
 
 footer ul {
