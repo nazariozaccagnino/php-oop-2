@@ -1,4 +1,10 @@
-.bg-header {
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg-header{
     background-color: #EDEAE1;
 }
 
@@ -6,34 +12,23 @@
     width: 200px;
 }
 
-ul li a:hover {
-    background-color: #0B5ED7;
-    color: white;
-    text-decoration: none;
+
+
+body{
+    background-color: red;
 }
 
-body {
-    background-color: #837b6e;
+.card {
+    height: 700px;
+    margin: 10px;
 }
 
-a {
-    text-decoration: none;
-    color: #444;
-}
 
-li {
-    list-style: none;
-    /*text-indent: -0.5px;*/
-}
-
-footer ul {
-    padding: 0;
-}
-
-.footer-credits {
-    background-color: #837b6e;
-    padding: 20px 0;
-    color: #fff;
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 
 footer h4 {
