@@ -1,27 +1,41 @@
-
-.bg-header{
+.bg-header {
     background-color: #EDEAE1;
 }
-.logo{
+
+.logo {
     width: 200px;
 }
 
-ul li a:hover{
+ul li a:hover {
     background-color: #0B5ED7;
     color: white;
     text-decoration: none;
 }
 
-body{
+body {
     background-color: #837b6e;
 }
-a{
+
+a {
     text-decoration: none;
     color: #444;
 }
-li{
+
+li {
     list-style: none;
-    text-indent: -0.5px;
+    /*text-indent: -0.5px;*/
 }
 
+footer ul {
+    padding: 0;
+}
 
+.footer-credits {
+    background-color: #837b6e;
+    padding: 20px 0;
+    color: #fff;
+}
+
+footer h4 {
+    text-transform: lowercase;
+}
