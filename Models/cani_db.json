@@ -49,10 +49,10 @@
         "img": "https://www.ciamanimali.com/22109-home_default/advance-activedefense-cane-sensitive-care-agnello-3-kg.webp",
         "category": "Dogfood"
     },
-    
         {
             "id": 7,
             "name": "Cuccia per Cani Confortevole in Tessuto",
+            "weight":"2kg",
             "size": "Medium",
             "price": "35.99$",
             "img": "https://example.com/cuccia.jpg",
@@ -61,6 +61,7 @@
         {
             "id": 8,
             "name": "Lettiera per Cani con Fondo Anti-Sporco",
+            "weight":"2kg",
             "size": "Large",
             "price": "25.99$",
             "img": "https://example.com/lettiera.jpg",
@@ -69,15 +70,16 @@
         {
             "id": 9,
             "name": "Giostra per Cani con Palline e Sonagli",
+            "weight":"2kg",
             "size": "Small",
             "price": "12.99$",
             "img": "https://example.com/giostra.jpg",
             "category": "Dogtoy"
         },
         {
-            "id": 10
-            ,
+            "id": 10,
             "name": "Ciotola per Cani in Acciaio Inox",
+            "weight":"2kg",
             "size": "Large",
             "price": "8.99$",
             "img": "https://example.com/ciotola.jpg",
@@ -86,6 +88,7 @@
         {
             "id": 11,
             "name": "Collare in Pelle per Cani con Fibbia Regolabile",
+            "weight":"2kg",
             "size": "Medium",
             "price": "19.99$",
             "img": "https://example.com/collare.jpg",
@@ -94,6 +97,7 @@
         {
             "id": 12,
             "name": "Giocattolo Tiragraffi per Cani con Sfera Rimovibile",
+            "weight":"2kg",
             "size": "Large",
             "price": "14.99$",
             "img": "https://example.com/tiragraffi.jpg",
