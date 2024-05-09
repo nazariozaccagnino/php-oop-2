@@ -48,7 +48,7 @@ $pesci =Fishes::fetchAll();
     </section>
 <hr>
     <section>
-        <h2>Bird food</h2>
+        <h2>Fish food</h2>
         <div class="row">
             <?php foreach ($pesci as $pesce) {
                 echo $pesce->printCard($pesce->formatItem());
