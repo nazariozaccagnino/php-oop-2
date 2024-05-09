@@ -28,7 +28,7 @@ $pesci =Fishes::fetchAll();
             } ?>
         </div>
     </section>
-
+<hr>
     <section>
         <h2>Cat food</h2>
         <div class="row">
@@ -37,7 +37,7 @@ $pesci =Fishes::fetchAll();
             } ?>
         </div>
     </section>
-
+<hr>
     <section>
         <h2>Bird food</h2>
         <div class="row">
@@ -46,7 +46,7 @@ $pesci =Fishes::fetchAll();
             } ?>
         </div>
     </section>
-
+<hr>
     <section>
         <h2>Bird food</h2>
         <div class="row">
