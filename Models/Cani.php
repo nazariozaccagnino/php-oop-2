@@ -5,7 +5,7 @@ class Dogs extends Product
     
     public function __construct($id, $name, $weight, $price, $img, $category)
     {
-        parent::__construct($id, $name, $weight, $price, $img, $category);
+        parent::__construct($id, $name, $weight);
         
 
 
